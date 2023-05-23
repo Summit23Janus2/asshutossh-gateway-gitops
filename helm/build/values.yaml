@@ -1,0 +1,15 @@
+app:
+  name: asshutossh-poi-gateway-app
+  namespace: asshutossh
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/asshutossh-gateway
+  org: Summit23Janus2
+  name: asshutossh-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: asshutossh/poi-gateway-app
+  tag: latest
